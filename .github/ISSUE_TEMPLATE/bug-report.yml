@@ -4,15 +4,15 @@ description: 'Please use this template if you encountered rendering issues or gl
 body:
   - type: input
     attributes:
-      label: yuzu Version
-      description: 'The version of yuzu you were using when the issue happened (can be found on the title bar)'
+      label: Citron Version
+      description: 'The version of Citron you were using when the issue happened (can be found on the title bar)'
   - type: textarea
     attributes:
       label: Description
       description: 'Please describe what happened?'
       placeholder: |
         - Which game is this?
-        - Does this issue also happen in the AppImage version?
+        - Does this issue also happen in the official releases?
         - What were you doing when the issue happened?
     validations:
       required: true

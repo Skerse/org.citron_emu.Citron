@@ -4,8 +4,8 @@ description: 'Please use this template if you experienced a crash or freeze'
 body:
   - type: input
     attributes:
-      label: yuzu Version
-      description: 'The version of yuzu you were using when this crash happened (can be found on the title bar)'
+      label: Cutron Version
+      description: 'The version of Citron you were using when this crash happened (can be found on the title bar)'
   - type: textarea
     attributes:
       label: Description
@@ -44,7 +44,7 @@ body:
       label: Remarks
       description: 'Do you have something notable to mention? Anything that will give us more context?'
       placeholder: |
-        - Does this issue also happen in the AppImage version?
+        - Does this issue also happen in the official releases?
         - Did you notice any anomalies prior to the crash?
         - Does this crash happen in older Flatpak versions?
     validations:
